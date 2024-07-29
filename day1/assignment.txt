@@ -1,0 +1,33 @@
+Project Initialization
+1. Initialize a new Node.js project.
+2. Install the necessary dependencies (express, mysql2, body-parser).
+3. Set Up Express Server
+
+Create an entry file (e.g., app.js).
+1. Set up a basic Express server that listens on a specific port.
+
+Database Configuration
+1. Create a MySQL database.
+2. Set up a table within the database for your data (e.g., users with fields id, name, email, etc.).
+users: id, name, email, password, job_title
+user_addressess: id, address, city, country, state
+
+Database Connection
+1. Create a separate file to configure and establish a connection to the MySQL database.
+
+Create REST API Endpoints
+1. Create: Create a user with multiple address (201) [Required fields: name, email, password, job_title and for addressess (address, country, state)]
+2. Read: Fetch the list of users with their addressess
+3. Read: Fetch the user with address
+4. Update: Update the user details only
+5. Update: Endpoint to update the user address details only
+6. Delete: Delete the user
+
+Test Your Endpoints
+1. Use tools like Postman to test your API endpoints to ensure they work as expected.
+
+Error Handling
+1. Implement error handling for your API endpoints to manage and respond to errors appropriately.
+
+Organize Your Code
+1. Organize your project structure to separate concerns (e.g., routes, controllers, models).

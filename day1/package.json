@@ -1,0 +1,17 @@
+{
+  "name": "maimt",
+  "version": "1.0.0",
+  "main": "file.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.10.3",
+    "sequelize": "^6.37.3"
+  }
+}
