@@ -1,0 +1,25 @@
+<%- contentFor('body') %>
+    <div class="card">
+        <div class="card-header">
+            User Details
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">User Profile</h5>
+            <dl class="row">
+                <dt class="col-sm-3">Name:</dt>
+                <dd class="col-sm-9">
+                    <%= user.name %>
+                </dd>
+
+                <dt class="col-sm-3">Email:</dt>
+                <dd class="col-sm-9">
+                    <%= user.email %>
+                </dd>
+
+                <dt class="col-sm-3">Job Title:</dt>
+                <dd class="col-sm-9">
+                    <%= user.job_title %>
+                </dd>
+            </dl>
+        </div>
+    </div>
