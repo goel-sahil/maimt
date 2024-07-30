@@ -1,5 +1,4 @@
 const express = require('express');
-const path = require('path');
 const passport = require('passport');
 const createError = require('http-errors');
 
@@ -21,7 +20,7 @@ passport.use(jwtStrategy);
 
 // Routes
 app.use('/auth', authRouter);
-app.use('/users', authenticateJWT, usersRouter);
+app.use('/users', passport.authenticate('basic', { session: false }), usersRouter);
 
 // Catch 404 and forward to error handler
 app.use((req, res, next) => {
