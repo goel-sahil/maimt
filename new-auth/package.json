@@ -1,5 +1,5 @@
 {
-  "name": "jwt",
+  "name": "new-auth",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -10,18 +10,15 @@
     "connect-flash": "^0.1.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
-    "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
     "express": "~4.16.1",
-    "express-ejs-layouts": "^2.5.1",
     "express-session": "^1.18.0",
     "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
     "mysql2": "^3.11.0",
-    "nodemailer": "^6.9.14",
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",
-    "sequelize": "^6.37.3",
-    "stripe": "^16.5.0",
-    "twilio": "^5.2.2"
+    "sequelize": "^6.37.3"
   }
 }
